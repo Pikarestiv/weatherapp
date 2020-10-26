@@ -125,15 +125,9 @@ border: 3px solid black;  /* creates padding around scroll thumb */
 }
 
 /* Making media responsive */
-@media only screen and (min-width: 301px) and (max-width: 1000px){
+@media only screen and (max-width: 1200px){
     .wrap{
-        width: 300px;
-    }
-}
-
-@media only screen and (max-width: 300px){
-    body .wrap{
-        width: 100% !important;
-        min-width: 150px;
+        width: 100%;
+        min-width: 250px;
     }
 }
