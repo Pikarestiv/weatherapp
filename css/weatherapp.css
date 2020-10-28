@@ -125,15 +125,22 @@ border: 3px solid black;  /* creates padding around scroll thumb */
 }
 
 /* Making media responsive */
-@media only screen and (min-width: 301px) and (max-width: 1000px){
-    .wrap{
-        width: 300px;
-    }
-}
-
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 480px){
     body .wrap{
         width: 100% !important;
         min-width: 150px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .wrap{
+        width: 481px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1000px){
+    .wrap{
+        width: 80%;
+        min-width: 481px
     }
 }
