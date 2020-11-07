@@ -9,110 +9,115 @@
     <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
     <script src="./js/main.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.js" integrity="sha512-bYkaBWaFtfPIMYt9+CX/4DWgfrjcHinjerNYxQmQx1VM76eUsPPKZa5zWV8KksVkBF/DaHSADCwil2J5Uq2ctA==" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<div id="demo"></div>
-<div class="wrap">
 
-    <div class="box1">
-        <div class="number">
-            12
-        </div>
-        <div class="degree">
-            <div class="superscript">
-                <sup>o</sup>
+    <p id="demo"></p>
+
+    <div class="wrap">
+
+        <div class="box1">
+            <div class="number" id="currTemp">
+                12
             </div>
-            <div class="subscript">
-                <sub>c</sub>
-            </div>
-        </div>
-    </div>
-
-    <div class="box2">
-        <div class="weather">
-            Rain
-        </div>
-    </div>
-
-    <div class="box3">
-        <div class="cloudicon">
-            <ion-icon name="thunderstorm"></ion-icon>
-        </div>
-    </div>
-
-    <div class="box4">
-        <div class="subbox">
-            Anambra
-        </div>
-
-    <div class="lastbox">
-      <div class="box">
-          <div class="icon1">
-            <ion-icon name="thunderstorm"></ion-icon>
-          </div>
-          <div class="day1">
-              <p>Mon</p>
-          </div>
-      </div>
-
-      <div class="box">
-        <div class="icon2">
-            <ion-icon name="partly-sunny"></ion-icon>
-        </div>
-        <div class="day2">
-            <p>Tue</p>
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="icon3">
-            <ion-icon name="cloudy"></ion-icon>
-        </div>
-        <div class="day3">
-            <p>Wed</p>
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="icon4">
-            <ion-icon name="rainy"></ion-icon>
-        </div>
-        <div class="day4">
-            <p>Thurs</p>
-        </div>
-      </div>
-
-      <div class="box">
-          <div class="icon5">
-            <ion-icon name="cloudy-night"></ion-icon>
-          </div>
-          <div class="day5">
-              <p>Fri</p>
-          </div>
-      </div>
-
-          <div class="box">
-            <div class="icon6">
-              <ion-icon name="cloudy-night"></ion-icon>
-            </div>
-            <div class="day6">
-                <p>Sat</p>
-            </div>
-          </div>
-                <div class="box">
-                    <div class="icon7">
-                        <ion-icon name="rainy"></ion-icon>
-                    </div>
-                    <div class="day7">
-                        <p>Sun</p>
-                    </div>
+            <div class="degree">
+                <div class="superscript">
+                    <sup>o</sup>
                 </div>
-                
-      </div>
-      </div>
-      </div>
-    </div>
+                <div class="subscript">
+                    <sub>c</sub>
+                </div>
+            </div>
+        </div>
 
-</div>
+        <div class="box2">
+            <div class="weather">
+                Rain
+            </div>
+        </div>
+
+        <div class="box3">
+            <div class="cloudicon">
+                <ion-icon name="thunderstorm"></ion-icon>
+            </div>
+        </div>
+
+        <div class="box4">
+            <div class="subbox">
+                Anambra
+            </div>
+
+        <div class="lastbox">
+        <div class="box">
+            <div class="icon1">
+                <ion-icon name="thunderstorm"></ion-icon>
+            </div>
+            <div class="day1">
+                <p>Mon</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icon2">
+                <ion-icon name="partly-sunny"></ion-icon>
+            </div>
+            <div class="day2">
+                <p>Tue</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icon3">
+                <ion-icon name="cloudy"></ion-icon>
+            </div>
+            <div class="day3">
+                <p>Wed</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icon4">
+                <ion-icon name="rainy"></ion-icon>
+            </div>
+            <div class="day4">
+                <p>Thurs</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icon5">
+                <ion-icon name="cloudy-night"></ion-icon>
+            </div>
+            <div class="day5">
+                <p>Fri</p>
+            </div>
+        </div>
+
+            <div class="box">
+                <div class="icon6">
+                <ion-icon name="cloudy-night"></ion-icon>
+                </div>
+                <div class="day6">
+                    <p>Sat</p>
+                </div>
+            </div>
+                    <div class="box">
+                        <div class="icon7">
+                            <ion-icon name="rainy"></ion-icon>
+                        </div>
+                        <div class="day7">
+                            <p>Sun</p>
+                        </div>
+                    </div>
+                    
+        </div>
+        </div>
+        </div>
+        </div>
+
+    </div>
 </body>
 </html>
